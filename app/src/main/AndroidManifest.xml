@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name="pozhidaev.AV.keepsolidApp.activity.SecondActivity"/>
+        <activity android:name="pozhidaev.AV.keepsolidApp.activity.FirstActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
